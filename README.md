@@ -16,7 +16,7 @@ gitlab-runner \
   --cache-s3-insecure "true"
 
 # Docker-compose file
-`
+```
 services:
    minio:
      network_mode: host
@@ -36,4 +36,4 @@ services:
        - ./gitlab-runner:/etc/gitlab-runner
        - /var/run/docker.sock:/var/run/docker.sock
      restart: always
-`
+```
