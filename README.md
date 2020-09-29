@@ -1,4 +1,5 @@
 # Gitlab-runner with cache
+```
 gitlab-runner \
   register -n \
   --name "git-lab-runner-name" \
@@ -14,6 +15,7 @@ gitlab-runner \
   --cache-s3-secret-key "minioadmin" \
   --cache-s3-bucket-name "runner" \
   --cache-s3-insecure "true"
+```
 
 # Docker-compose file
 ```
