@@ -4,4 +4,4 @@ services:
      container_name: gitlab-runner
      image: gitlab/gitlab-runner
      volumes:
-       - .gitlab-runner:/etc/gitlab-runner
+       - ./gitlab-runner:/etc/gitlab-runner
