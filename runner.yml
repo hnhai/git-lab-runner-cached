@@ -2,8 +2,6 @@ version: '3.0'
 services:
    gitlab-runner:
      container_name: gitlab-runner
-     depends_on:
-       - minio
      image: gitlab/gitlab-runner
      volumes:
        - .gitlab-runner:/etc/gitlab-runner
