@@ -5,3 +5,4 @@ services:
      image: gitlab/gitlab-runner
      volumes:
        - ./gitlab-runner:/etc/gitlab-runner
+       - /var/run/docker.sock:/var/run/docker.sock
