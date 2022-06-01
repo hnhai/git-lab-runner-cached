@@ -39,3 +39,6 @@ services:
        - /var/run/docker.sock:/var/run/docker.sock
      restart: always
 ```
+# New version from 2022-06-01 using config.toml instead of command to register runner
+- docker-compose -f minio.yml -d
+- docker-compose -f runner.yml -d
